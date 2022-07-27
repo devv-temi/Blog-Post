@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling the blog section*/
+section {
+    width: 75%;
+    margin: 0 auto;
+    place-content: center;
+}
+
+/* Styling the blog div */
+.container {
+    display: grid;
+    place-items: center;
+}
+
+/* h3 styling */
+.blog {
+    display: grid;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: black;
+    width: 593px;
+    height: 63px;
+}
+
+/* h1 styling */
+.blog-heading {
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    text-align: center;
+    color: #000000;
+    margin-top: 44px;
+    margin-bottom: 32px;
+}
+
+/* h1 Styling */
+.Heading {
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53px;
+    text-align: center;
+    color: black;
+}
+
+/* All h3 Styling */
+.blog-body {
+    width: 262px;
+    height: 78px;
+    font-family: 'poppins';
+    color: black;
+}
+
+/* Styling the hr tag */
+.line {
+    position: center;
+    width: 640px;
+    height: 0px;
+    left: 400px;
+    top: 1000px;
+    border: 2px solid #000000;
+}
+
+.blog-foot {
+   
+}
+
+.end {
+    
+}
+
+
