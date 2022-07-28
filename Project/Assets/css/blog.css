@@ -103,6 +103,14 @@ section {
     place-content: center;
 }
 
+.Header-image {
+    position: absolute;
+    width: 854px;
+    height: 533px;
+    left: 293px;
+    top: 210px;
+}
+
 /* Styling the blog div */
 .container {
     display: grid;
@@ -111,66 +119,161 @@ section {
 
 /* h3 styling */
 .blog {
-    display: grid;
-    font-family: monospace;
+    position: absolute;
+    width: 592px;
+    height: 68px;
+    left: 424px;
+    top: 981px;
+    font-family: 'monospace';
     font-style: normal;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 20px;
-    line-height: 100%;
+    line-height: 170%;
     text-align: center;
-    color: black;
-    width: 593px;
-    height: 63px;
+    color: #000000;
 }
 
 /* h1 styling */
 .blog-heading {
+    position: absolute;
+    width: 850px;
+    height: 160px;
+    left: 290px;
+    top: 780px;
     font-family: 'New York Extra Large';
     font-style: normal;
     font-weight: 700;
-    font-size: 54px;
+    font-size: 50px;
     line-height: 100%;
     text-align: center;
     color: #000000;
-    margin-top: 44px;
-    margin-bottom: 32px;
 }
 
 /* h1 Styling */
 .Heading {
+    position: absolute;
+    width: 225px;
+    height: 53px;
+    left: 608px;
+    top: 1147px;
     font-family: 'New York Extra Large';
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
     line-height: 53px;
     text-align: center;
-    color: black;
-}
-
-/* All h3 Styling */
-.blog-body {
-    width: 262px;
-    height: 78px;
-    font-family: 'poppins';
-    color: black;
+    color: #000000;
 }
 
 /* Styling the hr tag */
 .line {
-    position: center;
+    position: absolute;
     width: 640px;
     height: 0px;
     left: 400px;
-    top: 1000px;
+    top: 1083px;
     border: 2px solid #000000;
 }
 
-.blog-foot {
-   
+.blog1 {
+    position: absolute;
+    width: 304px;
+    height: 176px;
+    left: 402px;
+    top: 1239px;
 }
 
-.end {
-    
+.blog-body1 {
+    position: absolute;
+    width: 262px;
+    height: 78px;
+    left: 423px;
+    top: 1435px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+}
+
+.blog2 {
+    position: absolute;
+    width: 304px;
+    height: 176px;
+    left: 734px;
+    top: 1239px;
+}
+
+.blog-body2 {
+    position: absolute;
+    width: 262px;
+    height: 78px;
+    left: 755px;
+    top: 1435px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+}
+
+.blog3 {
+    position: absolute;
+    width: 304px;
+    height: 176px;
+    left: 402px;
+    top: 1577px;
+}
+
+.blog-body3 {
+    position: absolute;
+    width: 262px;
+    height: 52px;
+    left: 423px;
+    top: 1773px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+}
+
+.blog4 {
+    position: absolute;
+    width: 304px;
+    height: 176px;
+    left: 734px;
+    top: 1577px;
+}
+
+.blog-body4 {
+    position: absolute;
+    width: 262px;
+    height: 78px;
+    left: 755px;
+    top: 1773px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+}
+
+.line-footer {
+    position: absolute;
+    width: 1440px;
+    height: 464px;
+    left: -3px;
+    top: 2000px;
+    background: #000000;
 }
 
 .foot1 {
@@ -178,7 +281,7 @@ section {
     width: 319px;
     height: 28px;
     left: -6px;
-    top: 3334px;
+    top: 2000px;
     font-family: 'SF Pro Text';
     font-style: normal;
     font-weight: 800;
